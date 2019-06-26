@@ -12,7 +12,7 @@ Note that widget uses the Arc icon theme, so it should be [installed](https://gi
 - include `volume.lua` and add volume widget to your wibox in rc.lua:
 
 ```lua
-require("volume")
+local volume_widget = require("awesome-wm-widgets.volume-widget.volume")
 ...
 s.mytasklist, -- Middle widget
 	{ -- Right widgets
